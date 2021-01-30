@@ -9,7 +9,7 @@ while (product !== 'masterpieces' && product !== 'accessories'){
     var youprefer = '';
     
     if ( product === 'masterpieces'){
-        youprefer = '<img src="./image/master.jpg "/>';
+        youprefer = '<img src="./image/master.JPG "/>';
     }else if ( product === 'accessories'){
         youprefer = '<img src="./image/access.jpg"/>';
     }
