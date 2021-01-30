@@ -9,9 +9,9 @@ while (product !== 'masterpieces' && product !== 'accessories'){
     var youprefer = '';
     
     if ( product === 'masterpieces'){
-        youprefer = '<img src="./image/mpiece.jpg "/>';
+        youprefer = '<img src="./image/piece.jpg "/>';
     }else if ( product === 'accessories'){
-        youprefer = '<img src="./image/piece.jpg"/>';
+        youprefer = '<img src="./image/mpiece.jpg"/>';
     }
     
     var noof = prompt ('how many pieces do you want?');
