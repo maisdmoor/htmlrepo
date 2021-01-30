@@ -1,7 +1,7 @@
 alert("welcome to Saro Craft !");
  
 
-var productType =prompt("Do you need Masterpieces or Accessories ?")
+var productType =prompt("Do you need Masterpieces or Accessories ?");
 var noProduct = prompt(" how many pieces are you going to buy  ?");
 var orderDetails ;
 
@@ -22,5 +22,10 @@ else {
 
 
 document.getElementById("order").innerText=productType;
-document.getElementById("orderdiscount").innerText=orderDetails;
 document.getElementById("productcount").innerText=noProduct;
+document.getElementById("orderdiscount").innerText=orderDetails;
+
+confirm("you are welcome anytime !");
+alert("GoodBye!");
+
+
