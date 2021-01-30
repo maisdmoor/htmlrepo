@@ -18,9 +18,9 @@ while (product !== 'masterpieces' && product !== 'accessories'){
     var result ='';
     
     for (var i = 0 ; i < noof ; i++){
-    result = result + yourprefer;
+    result = result + youprefer;
     
     }
     
     document.write(result);
-    alert(' :) ')
+    alert(' :) ');
