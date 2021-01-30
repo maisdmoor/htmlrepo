@@ -1,4 +1,5 @@
 alert("welcome to Saro Craft !");
+alert("if you orderd less than 3 or more than 10 pieces you will not have any discount !");
  
 
 var productType =prompt("Do you need Masterpieces or Accessories ?");
@@ -16,7 +17,7 @@ if (noProduct > 2 && noProduct <= 5){
 }
 else {
 
-    orderDetails="if you orderd less than 3 pieces you will not have any discount !"
+    orderDetails="No Discount !"
 }
 
 
@@ -24,6 +25,7 @@ else {
 document.getElementById("order").innerText=productType;
 document.getElementById("productcount").innerText=noProduct;
 document.getElementById("orderdiscount").innerText=orderDetails;
+
 
 confirm("you are welcome anytime !");
 alert("GoodBye!");
