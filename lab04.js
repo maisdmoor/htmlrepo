@@ -16,7 +16,7 @@ if (noProduct > 2 && noProduct <= 5){
 }
 else {
 
-    orderDetails="if you orderd less than 2 pieces you will not have any discount !"
+    orderDetails="if you orderd less than 3 pieces you will not have any discount !"
 }
 
 
