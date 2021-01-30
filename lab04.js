@@ -23,4 +23,4 @@ else {
 
 document.getElementById("order").innerText=productType;
 document.getElementById("orderdiscount").innerText=orderDetails;
-document.getElementById("productcoun").innerText=noProduct;
+document.getElementById("productcount").innerText=noProduct;
