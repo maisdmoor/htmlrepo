@@ -1,54 +1,46 @@
-header {
-  background-color: rgb(226, 194, 226);
-}
 * {
-    margin: 0;
-  }
-  
-  header nav ul {
-    list-style: none;
-  }
-  header nav ul li {
-    display: inline-block;
-    padding: 20px;
-  }
-  header nav ul li a {
-    color: #c57d92;
-    text-decoration: none;
-  }
-  
-  #Home {
-    color: rgb(131, 96, 131);
-  }
-  
-  #Aboutus {
-    color: rgb(131, 96, 131);
-  }
+  margin:0;
+}
 
-  #Contactus {
-    color: rgb(131, 96, 131);
-  }
-  main h1 {
-    text-align: center;
-    margin: 20px 0px 20px 0px;
-  }
-  #frontend {
-    float: right;
-  }
-  /* class selector */
-  
-  .paraghraph {
-    clear: both;
-    border: solid 1px rgb(8, 8, 8);
-    padding: 20px 0 40px 60px;
-    margin: 100px;
-    color: rgb(12, 12, 12);
-  }
-  footer {
-    background-color: rgb(226, 194, 226);
-    padding: 20px ;
-  }
- #foot{
+header{
+  background-color: rgba(32, 200, 154,0.5)
+}
 
-    color: rgb(160, 69, 104); 
- }
+h1{
+  text-align: center;
+}
+
+header nav ul{
+  list-style: none;
+}
+header nav ul li{
+  display: inline;
+  margin:20px;     
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color:#eeeeee;
+
+}
+h2{
+  margin:20px 0 20px 60px;
+}
+main section ol li{
+  color: hsl(90, 50%, 40%);
+  
+}
+
+#html-image{
+  width: 40%;
+  margin:20px;
+  float:right;
+}
+.paragraph{
+  background-color: lightblue;
+  margin: 10px;
+  
+}
+article{
+  font-style: oblique;
+}
