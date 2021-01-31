@@ -1,4 +1,4 @@
-function greeting(){
+//function greeting(){
   var hourNow = prompt('what is the time');
   console.log(hourNow)
   // 
@@ -14,14 +14,15 @@ function greeting(){
       alert('Welcome ')
   }
   document.write('<h2>' + message + '</h2>');
-  }
-  
-  function orderingCookie(){
+
+ // }
+//greeting();
+
+  //function orderingCookie(){
   var userOrder = prompt('what would you like to order Masterpieces or Accessories','place your order');
   while(!(userOrder =='Masterpieces' || userOrder =='Accessories')){
-              // F                      // T
-                              // T
-                              // !T - > False
+            
+                  
       userOrder = prompt('please enter the correct item')
   }
   
