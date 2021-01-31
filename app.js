@@ -34,11 +34,11 @@ function greeting(){
   // 3
   for(var i = 0; i < userInputs; i++){
       if(userOrder =='Masterpieces'){
-          image = image + '<img src="https://www.kainoasgrill.com/wp-content/uploads/2019/03/Cookies-400x300.jpg">'
+          image = image + '<img src="">'
           console.log(image)
           
       }else if(userOrder =='Accessories'){
-          image = image +'<img src="https://thebakingexplorer.com/wp-content/uploads/2020/05/NDpin1-200x300.jpg">'
+          image = image +'<img src="">'
     
       }
   
