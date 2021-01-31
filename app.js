@@ -1,7 +1,7 @@
 function greeting(){
   var hourNow = prompt('what is the time');
   console.log(hourNow)
-  // mohammad
+  // 
   var message= '';
   console.log(message);
   if(hourNow >= 18  && hourNow <= 24){ //f
