@@ -1,11 +1,10 @@
-/*
-THIS IS A COMMENT THAT WILL NEVER RUN IN THE BROWSER  
- */
-/* universal Selector */
+header {
+  background-color: rgb(226, 194, 226);
+}
 * {
     margin: 0;
   }
-  /* element selector */
+  
   header nav ul {
     list-style: none;
   }
@@ -14,15 +13,22 @@ THIS IS A COMMENT THAT WILL NEVER RUN IN THE BROWSER
     padding: 20px;
   }
   header nav ul li a {
-    color: #eeeeee;
+    color: #c57d92;
     text-decoration: none;
   }
-  /* id selector */
-  #home {
+  
+  #Home {
     color: rgb(131, 96, 131);
   }
   
-  main h2 {
+  #Aboutus {
+    color: rgb(131, 96, 131);
+  }
+
+  #Contactus {
+    color: rgb(131, 96, 131);
+  }
+  main h1 {
     text-align: center;
     margin: 20px 0px 20px 0px;
   }
@@ -38,3 +44,11 @@ THIS IS A COMMENT THAT WILL NEVER RUN IN THE BROWSER
     margin: 100px;
     color: rgb(12, 12, 12);
   }
+  footer {
+    background-color: rgb(226, 194, 226);
+    padding: 20px ;
+  }
+ #foot{
+
+    color: rgb(160, 69, 104); 
+ }
