@@ -1,0 +1,40 @@
+/*
+THIS IS A COMMENT THAT WILL NEVER RUN IN THE BROWSER  
+ */
+/* universal Selector */
+* {
+    margin: 0;
+  }
+  /* element selector */
+  header nav ul {
+    list-style: none;
+  }
+  header nav ul li {
+    display: inline-block;
+    padding: 20px;
+  }
+  header nav ul li a {
+    color: #eeeeee;
+    text-decoration: none;
+  }
+  /* id selector */
+  #home {
+    color: purple;
+  }
+  
+  main h2 {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+  }
+  #frontend {
+    float: right;
+  }
+  /* class selector */
+  
+  .paraghraph {
+    clear: both;
+    border: solid 1px red;
+    padding: 20px 0 40px 60px;
+    margin: 100px;
+    color: aqua;
+  }
