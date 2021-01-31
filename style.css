@@ -1,46 +1,66 @@
+header {
+  background-color: rgb(117, 78, 115);
+}
+
+
 * {
-  margin:0;
-}
+   margin: 0;
+ }
+ 
+ header nav ul {
+   list-style: none;
+ }
+ header nav ul li {
+   display: inline-block;
+   padding: 20px;
+ }
+ header nav ul li a {
+   color: #eeeeee;
+   text-decoration: none;
+ }
+ main  ol li a {
+   color: rgb(234, 0, 255);
+   text-decoration: none;
+ }
+ #home {
+   color:rgb(161, 84, 138);
+ }
+#aboutus {
+color : rgb(192, 125, 175);
+}  
 
-header{
-  background-color: rgba(32, 200, 154,0.5)
+#contactus {
+color: yellow;
 }
+ main h2 {
+   text-align: center;
+   margin: 20px 0px 20px 0px;
+ }
+ main  ol {
+   list-style: none;
+ }
+ 
+ 
+ .coverd{
 
-h1{
-  text-align: center;
-}
+   clear: both;
+   padding: 20px 0 40px 60px;
+   margin: 50;
+   color: rgb(0, 0, 0);
 
-header nav ul{
-  list-style: none;
-}
-header nav ul li{
-  display: inline;
-  margin:20px;     
-}
+ }
+ .paraghraph {
+   clear: both;
+   border: solid 1px rgb(0, 0, 0);
+   padding: 20px 0 40px 60px;
+   margin: 5px;
+   color: rgb(234, 0, 255);
+ }
+ footer {
+   background-color: rgb(137, 216, 195);
+   padding: 20px ;
+ }
+#foot{
 
-header nav ul li a{
-  text-decoration: none;
-  color:#eeeeee;
-
-}
-h2{
-  margin:20px 0 20px 60px;
-}
-main section ol li{
-  color: hsl(90, 50%, 40%);
-  
-}
-
-#html-image{
-  width: 40%;
-  margin:20px;
-  float:right;
-}
-.paragraph{
-  background-color: lightblue;
-  margin: 10px;
-  
-}
-article{
-  font-style: oblique;
+   color: rgb(0, 0, 0); 
 }
